@@ -60,8 +60,8 @@ body {
 @media (max-width: 600px) {
     .navbar{
         font-size: x-small;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
     }
     .navbarNav a{
         font-size: x-small;
@@ -72,6 +72,9 @@ body {
     }
     .icon h3{
         font-size: xx-small;
+    }
+        .icon{
+        align-items: center;
     }
 }
 
