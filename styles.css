@@ -57,6 +57,25 @@ body {
     transition: linear 0.2s;
 }
 
+@media (max-width: 600px) {
+    .navbar{
+        font-size: x-small;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .navbarNav a{
+        font-size: x-small;
+        margin-left: 1rem;
+    }
+    .icon img{
+        height: 2rem;
+    }
+    .icon h3{
+        font-size: xx-small;
+    }
+}
+
+
 /* mulai ke calculator */
 
 .calculator{
