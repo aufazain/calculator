@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator aufa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="icon">
+            <img src="media/iconZain.png" alt="iconZain">
+            <h2>Zain Calculator</h2>
+        </div>
+
+        <div class="navbarNav">
+            <a href="https://wa.me/6281246023078">contact</a>
+            <a href="https://www.instagram.com/i.am_zain__/">instagram</a>
+            <a href="aboutMe.html">about me</a>
+        </div>
+    </div>
+
+    <div class="calculator">
+        <input class="displayPort" type="text" id="display" readonly>
+        <div class="calculatorButton">
+            <button class="oprator" onclick="injectValue('+')">+</button>
+            <button class="all" onclick="injectValue('1')">1</button>
+            <button class="all" onclick="injectValue('4')">4</button>
+            <button class="all" onclick="injectValue('7')">7</button>
+            <button class="all" onclick="injectValue('.')">.</button>
+            <button class="oprator" onclick="injectValue('-')">-</button>
+            <button class="all" onclick="injectValue('2')">2</button>
+            <button class="all" onclick="injectValue('5')">5</button>
+            <button class="all" onclick="injectValue('8')">8</button>
+            <button class="all" onclick="injectValue('0')">0</button>
+            <button class="oprator" onclick="injectValue('*')">*</button>
+            <button class="all" onclick="injectValue('3')">3</button>
+            <button class="all" onclick="injectValue('6')">6</button>
+            <button class="all" onclick="injectValue('9')">9</button>
+            <button class="all" onclick="clearDisplay()">C</button>
+            <button class="oprator" onclick="injectValue('/')">/</button>
+            <button class="hitung" onclick="hitung()">=</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html> 

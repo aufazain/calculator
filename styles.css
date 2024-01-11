@@ -1,0 +1,116 @@
+body {
+    background-color: #e5e6f5;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+/* navbar */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    z-index: 2;
+    background-color: #FFFFFF;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    box-shadow: 0px -7px 20px black;
+}
+
+.icon{
+    display: flex;
+}
+
+.icon img{
+    height: 4rem;
+    margin-right: 1rem;
+}
+
+.navbarNav{
+    display: flex;
+}
+
+.navbarNav a{
+    text-decoration: none;
+    color: black;
+    margin-left: 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.navbarNav a::after{
+    content: "";
+    margin-top: 2px;
+    display: block;
+    border-bottom: solid #fecc00 3.5px;
+    transform: scaleX(0);
+}
+
+.navbarNav a:hover::after{
+    transform: scaleX(1.1);
+    transition: linear 0.2s;
+}
+
+/* mulai ke calculator */
+
+.calculator{
+    justify-content: center;
+    align-items: center ;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 257px;
+    height: 390px;
+    background-color: #FFFFFF;
+    margin-top: 10rem;
+}
+
+.calculatorButton{
+    display: flex;
+    width: 240px;
+    height: 320px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.calculator button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 30px;
+    border: none;
+    color: #566A77;
+    font-size: large
+}
+
+.displayPort {
+    width: 220px;
+    height: 40px;
+    margin: 5px;
+    background-color: #FFFFFF;
+    border:none;
+    font-size: x-large;
+    padding:15px;
+    color: #566A77;
+}
+
+.calculator .hitung{
+    width: 50spx;
+    height: 230px;
+    background-color: #FFD85B;
+}
+
+.oprator {
+    background-color: #D3DDE5;
+
+}
+
+.all {
+    background-color: #F0F1F2;
+}
