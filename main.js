@@ -13,6 +13,6 @@ function hitung(){
     try {
         display.value = eval(display.value);
     } catch(error){
-        display.value = "invalid";
+        display.value = "salah input kentir";
     }
 }
